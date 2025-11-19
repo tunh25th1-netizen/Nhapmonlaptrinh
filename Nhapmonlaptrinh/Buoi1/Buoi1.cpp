@@ -6,7 +6,7 @@
 int main()
 {
     std::cout << "Hello World!\n";
-}
+}//helo cac ban da den voi buoi livestream cua bon cung
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
