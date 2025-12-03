@@ -18,6 +18,7 @@ void cau2() {
 	cin >> phucap;
 	cout << "Thuc lanh:  " << luong + phucap - (luong + phucap) * 0.1 << endl;
 }
+void cau3(){}
 int main()
 {
 	cau2();
