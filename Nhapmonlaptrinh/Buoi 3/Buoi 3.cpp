@@ -26,9 +26,17 @@ void cau3() {
 	cin >> chieucao;
 	cout << "BMI: " << cannang / (chieucao * chieucao) << endl;
 }
+void cau11() {
+	float a, b;
+	cout << "Nhap a: ";
+	cin >> a;
+	cout << "NHap b: ";
+	cin >> b;
+	cout << "S=" << (a + b) * (a + b) - (a - b) * (a - b);
+}
 int main()
 {
-	cau3();
+	cau11();
 }
 
 
