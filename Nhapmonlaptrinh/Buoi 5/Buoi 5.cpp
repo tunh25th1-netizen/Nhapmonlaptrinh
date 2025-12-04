@@ -75,6 +75,17 @@ void cau5() {
         cout << "Khong la tam giac" << endl;
     }
 }
+void cau6() {
+    int a, b, c;
+    cout << "Nhap a, b, c: ";
+    cin >> a >> b >> c;
+    if (a == 0 && b == 0 && c == 0) {
+        cout << "Phuong trinh vo so nghiem" << endl;
+    }
+    else {
+
+    }
+}
 int main()
 {
     cau5();
