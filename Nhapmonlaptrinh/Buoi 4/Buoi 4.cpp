@@ -57,8 +57,15 @@ using namespace std;
      cin >> x2 >> y2;
      cout << "khoang cach:  " << sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1)) << endl;
  }
+ void cau5() {
+     int a, b, c;
+     cout << "Nhap 3 canh:  ";
+     cin >> a >> b >> c;
+     cout << "The tich:  " << a * b * c << endl;
+     cout << "Dien tich:  " << (a * b + b * c + a * c) << endl;
+ }
 int main()
 {
-    cau4();
+    cau5();
 }
 
