@@ -12,7 +12,7 @@ void cau1() {
 }
 
 void cau2() {
-	int n, tich = 1;
+	int n, tich = 0;
 	cout << "Nhap n: ";
 	cin >> n;
 	for (int i = 1; i <= n; i++) {
@@ -20,9 +20,18 @@ void cau2() {
 	}
 	cout << "Tich: " << tich << endl;
 }
+void cau3() {
+	int n, x, tich = 1;
+	cout << "Nhap n, x: ";
+	cin >> x >> n;
+	for (int i = 1; i <= n; i++) {
+		tich *= x;
+	}
+	cout << "Tich: " << tich << endl;
+}
 
 int main(){
-	cau2();
+	cau3();
   }
 
 
