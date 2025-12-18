@@ -38,3 +38,21 @@ void vitriam(int b[], int n) {
 	}
 	cout << endl;
 }
+void giatrilonnhat(int b[], int n) {
+	int max = b[0];
+	for (int i = 1; i < n; i++) {
+		if (b[i] > max)
+			max = b[i];
+	}
+	cout << "gia tri lon nhat: " << max << endl;
+}
+void vitrilonnhat(int b[], int n) {
+	int min = b[0], vt = 0;
+	for (int i = 1; i < n; i++) {
+		if (b[i] < min) {
+			min = b[i];
+			vt = i;
+		}
+	}
+	cout << "Vi tri co gia tri nho nhat:  " << vt + 1 << endl;
+}
