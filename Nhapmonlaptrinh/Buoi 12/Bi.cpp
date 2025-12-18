@@ -18,3 +18,23 @@ void output(int b[], int n) {
 	}
 	cout << endl;
 }
+void giatrichan(int b[], int n) {
+	cout << "Danh sach gia tri chan: " << endl;
+	int i = 0;
+	while (i < n) {
+		if (b[i] % 2 == 0)
+			cout << b[i] << "  ";
+		i++;
+	}
+	cout << endl;
+}
+void vitriam(int b[], int n) {
+	cout << "Danh sach vi tri am: " << endl;
+	int i = 0;
+	while (i < n) {
+		if (b[i] < 0)
+			cout << i + 1 << "  ";
+		i++;
+	}
+	cout << endl;
+}
