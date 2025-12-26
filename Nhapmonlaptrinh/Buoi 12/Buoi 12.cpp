@@ -16,12 +16,12 @@ int main()
 	//tonggiatriam(a, n);
 	//sapxep(a, n);
 	//output(a, n);
-	int kq = giatrichancuoicung(a, n);
-	if (kq == -1) {
+	int vt = vitrichandautien(a, n);
+	if (vt == -1) {
 		cout << "Khong co gia tri duong trong mang" << endl;
 	}
 	else {
-		cout << "Gia tri chan cuoi cung: " << kq << endl;
+		cout << "Vi tri chan dau tien: " << vt << endl;
 	}
 }
 
